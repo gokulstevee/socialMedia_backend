@@ -38,7 +38,7 @@ app.get("/api/v1/linkedin", (req, res) => {
   res.status(200).json({ facebook });
 });
 
-app.get("/api/get", (req, res) => {
+app.get("/", (req, res) => {
   res.status(200).send("Hi");
 });
 
